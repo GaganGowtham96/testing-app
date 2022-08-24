@@ -26,7 +26,7 @@ function App() {
       <center>
         <div className="card">
           <div className="card-body">
-            <h5 className="card-title">Todo Management App</h5>
+            <h5 className="card-title">Todo Management Application</h5>
             <form onSubmit={submitHandler}>
               <input size="30" type="text" name="task" value={task} onChange={changeHandler}/> &nbsp;&nbsp;
               <input type="submit" value="Add" name="name" />
